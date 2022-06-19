@@ -112,6 +112,23 @@ ul {
 }
 
 
+/* ИКОНКИ контактов */
+
+.link-icon {
+    display: inline-flex;
+    align-items: center;
+}
+.icon-email {
+    fill: currentColor;
+    margin-right: 10px;
+}
+.icon-email:hover {
+    fill: var(--brand-color);
+}
+
+
+
+
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
     color: var(--brand-color);
@@ -120,8 +137,22 @@ ul {
 section.hero {
     padding-top: 200px; 
     padding-bottom: 200px;
-    background-color: #2F303A;
     text-align: center;
+}
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;  
+    margin-right: auto;
+    background: #C4C4C4;
+    background-image: linear-gradient(to right, 
+    rgba(47, 48, 58, 0.4), 
+    rgba(47, 48, 58, 0.4)),
+    url(../images/Imghero\ \(1\).jpg);
+    
+    
+    
+    
 }
 .hero .title {
     margin-bottom: 30px;
@@ -176,10 +207,37 @@ section.hero {
     font-size: 14px;
     line-height: 1.143;
 }
+
+
 .description-benefits {
     color: var(--secondary-text-color);
     line-height: 1.714;
 }
+   
+
+
+/* ИКОНКИ ПРЕИМУЩЕСТВ */
+.attention {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    
+}
+.icon-attention {
+    width: 70px;
+    height: 70px;
+    
+}
+
+
+
+
+
+
 .section.examples {
     padding-top: 0;
     
@@ -237,6 +295,77 @@ section.hero {
     display: flex;
     justify-content: space-between;
 }
+
+
+/* ИКОНКИ КОМАНДІ */
+
+.social-links {
+    display: flex;
+    width: 206px;
+    height: 44px;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 32px;
+    margin-right: 32px;
+    color: #AFB1B8;
+}
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AFB1B8;
+    width: 44px;
+    height: 44px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--brand-color);
+    color: var(--white-color);
+}
+.icon-social-network {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+
+/* ПОСТОЯНЫЕ КЛИЕНТЫ */
+
+
+
+.regular-clients {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1170px;
+    height: 92px;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+}
+.icon-clients {
+    fill: currentColor;
+}
+
+.client:hover {
+    color: var(--brand-color);
+    border: 1px solid var(--brand-color);
+}
+
+
+
 /* footer */
 .footer-info {
     padding-top: 60px;
