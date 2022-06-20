@@ -159,7 +159,7 @@ ul {
     
 }
 .hero .title {
-    width: 693px;
+    width: 650px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -309,23 +309,24 @@ ul {
 
 .social-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 44px;
-    padding-left: 32px;
-    padding-right: 32px; 
     color: #AFB1B8;
 }
 .social-link {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     color: #AFB1B8;
     width: 44px;
     height: 44px;
     background-color: var(--white-color);
     border-radius: 50%;
     
+}
+.social-links li:not(:last-child)  {
+    margin-right: 10px;
 }
 
 .social-link:hover,
@@ -511,6 +512,7 @@ ul {
     border-radius: 4px;
     padding: 6px 22px 6px 22px;
     border: none;
+    cursor: pointer;
     
 }
 .btn:hover, .btn:focus {
